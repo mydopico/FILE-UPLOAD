@@ -38,7 +38,7 @@ let upload = () => {
     } else {
         load++;
         progress.value = load;
-        p_i.innerHTML = load + '%' + ' ' + 'Upload';
+        p_i.innerHTML = load + '%';
         button[1].onclick = e => {
             e.preventDefault();
             clearInterval(process);
