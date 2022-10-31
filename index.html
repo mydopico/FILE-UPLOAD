@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILE UPLOAD</title>
+    <!-- Custom CSS   -->
+    <link rel="stylesheet" href="css\styles.css">
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />		
+    <!-- Google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- NAV BAR -->
+   <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-mountain-sun"></i> Challenges Daily UI :: 031
+        </a>
+    </nav>
+    <section>
+        <form action="" autocomplete="off" enctype="multipart/form-data">
+            <div id="title">
+                <h1><span class="title"> Up</span>load</h1>
+            </div>            
+            <div>
+                <input type="file" id="upload" style="display: none;">
+                <label for="upload">Choose File</label>
+            </div>
+           
+            <button><span> <i class="fa-solid fa-cloud-arrow-up"></i></span><span class="uploading">Uploading...
+            </span></button>
+            <button class="cancel">Cancel</button>
+            <div class="pr">
+                <strong>
+                    <h4 class="ex"></h4>
+                    <h4 class="size"></h4>                    
+                    <progress min="0" max="100" value="0"></progress>
+                    <span class="progress-indicator"></span>
+                </strong>
+            </div>
+
+        </form>
+
+    </section>
+    
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
