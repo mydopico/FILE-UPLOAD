@@ -24,7 +24,7 @@ file.oninput = () => {
     }
 
     document.querySelector('label').innerText = filename;                       
-    document.querySelector('.ex').innerText = extension;  
+    document.querySelector('.extension').innerText = extension;  
     document.querySelector('.size').innerText = filesize; 
     getFile(filename);
 }
