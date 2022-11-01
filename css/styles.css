@@ -188,5 +188,9 @@ button.cancel {
     section {
         width: 90%;    
         margin: 50px auto;           
-    }      
+    }  
+    
+    button {
+        padding: 8px 18px;
+    }
 }
