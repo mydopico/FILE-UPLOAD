@@ -191,6 +191,7 @@ button.cancel {
     }  
     
     button {
-        padding: 8px 18px;
+        padding: 8px 15px;
+        font-size: 14px;
     }
 }
